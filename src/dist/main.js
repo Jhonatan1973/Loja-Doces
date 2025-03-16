@@ -70,7 +70,7 @@ carregarCabecalho();
 const produtosPorDepartamento = {
   "Ovos de Páscoa": [
     {
-      imagem: "/assents/img/ovo-de-pascoa-493.jpg",
+      imagem: "../assents/img/ovo-de-pascoa-493.jpg",
       nome: "Ovo de Páscoa",
       descricao: "Ovo de colher feito com chocolate nobre e recheio de Maracujá.",
       preco: "R$ 10,00"
