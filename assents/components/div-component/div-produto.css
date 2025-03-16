@@ -1,0 +1,48 @@
+/* Estiliza os departamentos */
+.departamento {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+/* Nome do Departamento */
+.departamento h2 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #ff85c2; /* Linha separadora */
+    padding-bottom: 5px;
+}
+
+/* Container dos produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap; /* Garante que os produtos se ajustem à tela */
+    gap: 10px;
+}
+
+/* Estiliza cada produto */
+.produto {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px; /* Ajuste conforme necessário */
+    font-weight: bold;
+}
+
+/* Estiliza os botões */
+.comprar {
+    background-color: #ff85c2;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.comprar:hover {
+    background-color: #ff579a;
+}
